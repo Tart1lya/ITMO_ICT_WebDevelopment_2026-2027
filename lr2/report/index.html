@@ -1,0 +1,1594 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../lr1/report/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Отчёт - Веб-программирование. Артемов Илья. K3341</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no2-django" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="Веб-программирование. Артемов Илья. K3341" class="md-header__button md-logo" aria-label="Веб-программирование. Артемов Илья. K3341" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Веб-программирование. Артемов Илья. K3341
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Отчёт
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Веб-программирование. Артемов Илья. K3341" class="md-nav__button md-logo" aria-label="Веб-программирование. Артемов Илья. K3341" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Веб-программирование. Артемов Илья. K3341
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ЛР1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lr1/report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ЛР2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задание и программное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Структура работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-django" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.1. Первое приложение Django
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.1. Первое приложение Django">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Проект и модель данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#django-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Миграции и Django Admin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Представление владельца по идентификатору
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-crud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.2. Связи и CRUD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.2. Связи и CRUD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание реализации
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.3. Расширение пользователя
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.3. Расширение пользователя">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание реализации
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Лабораторная часть. Вариант 3 - табло авиаперелётов
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Лабораторная часть. Вариант 3 - табло авиаперелётов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Модель данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаблоны и обработка запросов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Регистрация и права
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Интерфейсы сайта
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Бронирование и регистрация пассажира
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Отзывы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Запуск на macOS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Запуск на macOS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Запуск подготовленных проектов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Повторное развёртывание из исходного кода
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Проверка результата
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вывод
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задание и программное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Структура работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-django" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.1. Первое приложение Django
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.1. Первое приложение Django">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Проект и модель данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#django-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Миграции и Django Admin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Представление владельца по идентификатору
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-crud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.2. Связи и CRUD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.2. Связи и CRUD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание реализации
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическая работа 2.3. Расширение пользователя
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическая работа 2.3. Расширение пользователя">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание реализации
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Лабораторная часть. Вариант 3 - табло авиаперелётов
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Лабораторная часть. Вариант 3 - табло авиаперелётов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Модель данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаблоны и обработка запросов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Регистрация и права
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Интерфейсы сайта
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Бронирование и регистрация пассажира
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Отзывы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Запуск на macOS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Запуск на macOS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Запуск подготовленных проектов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Повторное развёртывание из исходного кода
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Проверка результата
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вывод
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no2-django">Лабораторная работа №2. Простой сайт на Django</h1>
+<p>Выполнил. Артемов Илья, группа K3341. Вариант 3. Табло авиаперелётов.</p>
+<h2 id="_1">Цель работы</h2>
+<p>Изучить разработку веб-сервисов средствами Django. Научиться описывать модели данных, работать с PostgreSQL, обрабатывать запросы, создавать формы и шаблоны, разграничивать права пользователей.</p>
+<h2 id="_2">Задание и программное обеспечение</h2>
+<p>Задача. Выполнить практические работы <a href="https://rendex85.github.io/ITMO_ICT_WebDevelopment_Docs/lab2/practice1/">2.1</a>, <a href="https://rendex85.github.io/ITMO_ICT_WebDevelopment_Docs/lab2/practice2/">2.2</a>, <a href="https://rendex85.github.io/ITMO_ICT_WebDevelopment_Docs/lab2/practice3/">2.3</a> и реализовать сайт по <a href="https://rendex85.github.io/ITMO_ICT_WebDevelopment_Docs/lab2/assignment/">варианту 3</a>. Использовать Django, шаблоны Jinja2 и СУБД PostgreSQL. Оформить отчёт средствами MkDocs.</p>
+<p>Вариант 3 - табло авиаперелётов. О рейсе хранятся номер, авиакомпания, аэропорты и время отлёта и прилёта, тип рейса и гейт. Пользователь регистрируется, просматривает рейсы, бронирует места, изменяет и удаляет свои бронирования, оставляет отзывы с рейтингом 1-10. Администратор регистрирует пассажиров и указывает номера билетов. На сайте выводится таблица пассажиров рейса. Для списка рейсов реализованы поиск, фильтрация и пагинация. Интерфейс оформлен с помощью CSS, действия пользователя и администратора разделены.</p>
+<p>Использованы Python 3.13.3, Django 5.2.18, PostgreSQL 18.3, Jinja2 3.1.6 и psycopg 3.3.6. Вместо указанной в задании Django 3 выбрана Django 5.2 LTS, совместимая с установленным Python.</p>
+<h2 id="_3">Структура работы</h2>
+<p>Код находится в <code>students/k3341/Artemov_Ilya/laboratory_work_2/</code>. Практические задания и табло авиаперелётов размещены в отдельных проектах. Отчёт добавлен в общий сайт MkDocs.</p>
+<div class="highlight"><pre><span></span><code>laboratory_work_2/
+├── requirements.txt
+├── .gitignore
+├── practice_django/
+│   ├── manage.py
+│   ├── .env.example
+│   ├── django_project_artemov/   # настройки и маршруты проекта практик
+│   └── project_first_app/       # модели, FBV, CBV, формы, шаблоны, тесты
+└── flight_board/
+    ├── manage.py
+    ├── .env.example
+    ├── config/                  # настройки, URL, окружение Jinja2
+    ├── templates/               # клиентские шаблоны Jinja2
+    └── flights/                 # модели, представления, формы, admin, тесты
+</code></pre></div>
+<h2 id="21-django">Практическая работа 2.1. Первое приложение Django</h2>
+<p>Задача. Создать проект <code>django_project_artemov</code> и приложение <code>project_first_app</code>. Описать модель данных об автовладельцах, выполнить миграции, зарегистрировать модели в Django Admin и вывести сведения о владельце по его идентификатору.</p>
+<h3 id="_4">Проект и модель данных</h3>
+<p>В приложении описаны четыре модели.</p>
+<table>
+<thead>
+<tr>
+<th>Модель</th>
+<th>Основные поля и связи</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>CarOwner</code></td>
+<td>Имя, фамилия, дата рождения; после выполнения практики 2.3 также учётные данные, паспорт, домашний адрес и национальность</td>
+</tr>
+<tr>
+<td><code>Car</code></td>
+<td>Уникальный госномер, марка, модель, необязательный цвет</td>
+</tr>
+<tr>
+<td><code>Ownership</code></td>
+<td>Внешние ключи на владельца и автомобиль, дата начала и необязательная дата окончания владения</td>
+</tr>
+<tr>
+<td><code>DriverLicense</code></td>
+<td>Владелец, уникальный номер удостоверения, тип/категория, дата выдачи</td>
+</tr>
+</tbody>
+</table>
+<p>Владельцы и автомобили связаны отношением "многие ко многим" через <code>Ownership</code>. У одного владельца может быть несколько водительских удостоверений. Для дат рождения, владения и выдачи удостоверения используется <code>DateField</code>, поскольку время суток в этих данных не требуется. Категория удостоверения выбирается из списка.</p>
+<p>Если дата окончания владения не указана, в базе хранится <code>NULL</code> - владение продолжается. Дата окончания не может быть раньше даты начала. Метод <code>Ownership.clean()</code> проверяет, чтобы периоды владения одним автомобилем не пересекались. Дни начала и окончания входят в период, поэтому новый период начинается не раньше следующего дня после окончания предыдущего.</p>
+<h3 id="django-admin">Миграции и Django Admin</h3>
+<p>Структура таблиц создаётся миграцией <code>project_first_app/migrations/0001_initial.py</code>. Миграция применена к базе данных. Все четыре модели зарегистрированы в Django Admin. Для модели владельца используется <code>CarOwnerAdmin</code>, унаследованный от <code>UserAdmin</code>.</p>
+<p>Для входа в Django Admin создан суперпользователь <code>admin</code>. Через админ-панель добавлены два владельца и четыре автомобиля. Через форму с обработчиком-функцией добавлен ещё один владелец, затем ещё три. Через форму с обработчиком-классом добавлены три автомобиля. В результате в базе хранятся шесть учебных владельцев, администратор и семь автомобилей.</p>
+<p>Первые два учебных владельца связаны каждый с тремя автомобилями.</p>
+<table>
+<thead>
+<tr>
+<th>Владелец</th>
+<th>Автомобиль</th>
+<th>Начало</th>
+<th>Окончание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>owner1</code></td>
+<td>А001АА178</td>
+<td>01.01.2018</td>
+<td>31.12.2019</td>
+</tr>
+<tr>
+<td><code>owner1</code></td>
+<td>А002АА178</td>
+<td>01.01.2020</td>
+<td>31.12.2021</td>
+</tr>
+<tr>
+<td><code>owner1</code></td>
+<td>А003АА178</td>
+<td>01.01.2022</td>
+<td>31.12.2023</td>
+</tr>
+<tr>
+<td><code>owner2</code></td>
+<td>А001АА178</td>
+<td>01.01.2020</td>
+<td>Продолжается</td>
+</tr>
+<tr>
+<td><code>owner2</code></td>
+<td>А002АА178</td>
+<td>01.01.2022</td>
+<td>Продолжается</td>
+</tr>
+<tr>
+<td><code>owner2</code></td>
+<td>А004АА178</td>
+<td>01.01.2024</td>
+<td>Продолжается</td>
+</tr>
+</tbody>
+</table>
+<p>Пересечений по датам одного автомобиля нет. Добавлены два водительских удостоверения категории B.</p>
+<h3 id="_5">Представление владельца по идентификатору</h3>
+<p>Обработчик <code>owner_detail</code> находится в <code>views.py</code>. Адреса приложения подключены в главном <code>urls.py</code> через <code>include()</code>.</p>
+<ol>
+<li>Браузер отправляет запрос по адресу <code>/owner/&lt;int:owner_id&gt;/</code>.</li>
+<li>Django извлекает идентификатор из адреса и передаёт его функции <code>owner_detail</code>.</li>
+<li>Функция получает владельца из базы через <code>get_object_or_404</code> и передаёт данные в шаблон <code>templates/owner.html</code>.</li>
+<li>Шаблон формирует страницу с данными владельца. Если запись не найдена, сервер возвращает HTTP 404.</li>
+</ol>
+<p>Адрес без завершающего <code>/</code>, например <code>/owner/1</code>, перенаправляется на <code>/owner/1/</code>.</p>
+<p>В карточке выводятся сведения о пользователе, история владения и удостоверения. Паспорт, адрес, email и номер удостоверения видны самому владельцу и администратору.</p>
+<p><img alt="Карточка владельца и история владения" src="../images/owner.jpg" /></p>
+<h2 id="22-crud">Практическая работа 2.2. Связи и CRUD</h2>
+<p>Задача. Связать владельцев и автомобили через промежуточную модель с датами владения. Реализовать список и форму создания владельцев с помощью функций, а просмотр, создание, изменение и удаление автомобилей - с помощью классов.</p>
+<h3 id="_6">Описание реализации</h3>
+<p>Связь владельца с автомобилем задаётся через <code>ManyToManyField</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="n">owners</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">ManyToManyField</span><span class="p">(</span>
+    <span class="n">settings</span><span class="o">.</span><span class="n">AUTH_USER_MODEL</span><span class="p">,</span>
+    <span class="n">through</span><span class="o">=</span><span class="s2">"Ownership"</span><span class="p">,</span>
+    <span class="n">related_name</span><span class="o">=</span><span class="s2">"cars"</span><span class="p">,</span>
+    <span class="n">verbose_name</span><span class="o">=</span><span class="s2">"Владельцы"</span><span class="p">,</span>
+<span class="p">)</span>
+</code></pre></div>
+<p>Параметр <code>through="Ownership"</code> указывает промежуточную модель. В ней хранятся ссылки на владельца и автомобиль, даты начала и окончания владения. По этим записям формируется история смены владельцев.</p>
+<p>Список владельцев выводит функция <code>owner_list</code>. Создание владельца обрабатывает функция <code>owner_create</code>.</p>
+<ol>
+<li>При GET-запросе <code>owner_create</code> показывает пустую форму <code>OwnerCreationForm</code>.</li>
+<li>При POST-запросе форма получает введённые данные и проверяет их.</li>
+<li>Если данные верны, создаётся пользователь. <code>UserCreationForm</code> сохраняет пароль в виде хеша.</li>
+<li>После сохранения сервер перенаправляет браузер на карточку пользователя. Если есть ошибки, форма выводится повторно с сообщениями об ошибках.</li>
+</ol>
+<p>Для автомобилей используются представления на основе классов.</p>
+<table>
+<thead>
+<tr>
+<th>Интерфейс</th>
+<th>Представление</th>
+<th>Адрес</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Все владельцы</td>
+<td><code>owner_list</code>, FBV</td>
+<td><code>/</code> или <code>/owners/</code></td>
+</tr>
+<tr>
+<td>Один владелец</td>
+<td><code>owner_detail</code>, FBV</td>
+<td><code>/owner/&lt;id&gt;/</code></td>
+</tr>
+<tr>
+<td>Создание владельца</td>
+<td><code>owner_create</code>, FBV</td>
+<td><code>/owner/create/</code></td>
+</tr>
+<tr>
+<td>Все автомобили</td>
+<td><code>CarListView</code></td>
+<td><code>/cars/</code></td>
+</tr>
+<tr>
+<td>Автомобиль по идентификатору</td>
+<td><code>CarDetailView</code></td>
+<td><code>/car/&lt;id&gt;/</code></td>
+</tr>
+<tr>
+<td>Добавление автомобиля</td>
+<td><code>CarCreateView</code></td>
+<td><code>/car/create/</code></td>
+</tr>
+<tr>
+<td>Изменение автомобиля</td>
+<td><code>CarUpdateView</code></td>
+<td><code>/car/&lt;id&gt;/update/</code></td>
+</tr>
+<tr>
+<td>Удаление автомобиля</td>
+<td><code>CarDeleteView</code></td>
+<td><code>/car/&lt;id&gt;/delete/</code></td>
+</tr>
+</tbody>
+</table>
+<p>Создание и изменение автомобиля выполняются через <code>CarForm</code> после входа пользователя. При GET-запросе страницы удаления выводится подтверждение. Запись удаляется только после POST-запроса с CSRF-токеном.</p>
+<p><img alt="Список пользователей-владельцев" src="../images/owners.jpg" /></p>
+<h2 id="23">Практическая работа 2.3. Расширение пользователя</h2>
+<p>Задача. Сделать владельца автомобиля пользователем. Добавить номер паспорта, домашний адрес и национальность, вывести эти поля в Django Admin и реализовать форму создания пользователя.</p>
+<h3 id="_7">Описание реализации</h3>
+<p>Модель <code>CarOwner</code> наследуется от <code>AbstractUser</code>. К стандартным полям пользователя добавлены дата рождения, номер паспорта, адрес и национальность.</p>
+<div class="highlight"><pre><span></span><code><span class="n">birth_date</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">DateField</span><span class="p">(</span><span class="s2">"Дата рождения"</span><span class="p">,</span> <span class="n">null</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">blank</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">passport_number</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="s2">"Номер паспорта"</span><span class="p">,</span> <span class="n">max_length</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<span class="n">home_address</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="s2">"Домашний адрес"</span><span class="p">,</span> <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">)</span>
+<span class="n">nationality</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="s2">"Национальность"</span><span class="p">,</span> <span class="n">max_length</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+</code></pre></div>
+<p>В настройках до создания первой миграции установлено.</p>
+<div class="highlight"><pre><span></span><code><span class="n">AUTH_USER_MODEL</span> <span class="o">=</span> <span class="s2">"project_first_app.CarOwner"</span>
+</code></pre></div>
+<p>После этой настройки Django использует <code>CarOwner</code> как модель пользователя. Владелец и пользователь хранятся в одной записи. Модели <code>Ownership</code> и <code>DriverLicense</code> ссылаются на <code>settings.AUTH_USER_MODEL</code>.</p>
+<p>Список и карточка владельца выводят данные пользователя. Форма по адресу <code>/owner/create/</code> создаёт пользователя с новыми полями и паролем. Те же поля добавлены в формы создания и изменения пользователя в Django Admin.</p>
+<h2 id="3-">Лабораторная часть. Вариант 3 - табло авиаперелётов</h2>
+<p>Задача. Реализовать просмотр рейсов, регистрацию пользователей, бронирование мест, изменение и удаление своих бронирований. Добавить регистрацию пассажиров администратором с указанием номера билета, таблицу пассажиров рейса и отзывы с датой рейса, текстом, рейтингом и автором.</p>
+<h3 id="_8">Модель данных</h3>
+<table>
+<thead>
+<tr>
+<th>Модель</th>
+<th>Поля</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Flight</code></td>
+<td>Номер, авиакомпания, аэропорты отправления и прибытия, время отлёта и прилёта, тип "прилёт/отлёт", гейт, количество мест</td>
+</tr>
+<tr>
+<td><code>Reservation</code></td>
+<td>Пользователь, рейс, ФИО пассажира, номер места, необязательный уникальный номер билета, признак регистрации на рейс, время создания</td>
+</tr>
+<tr>
+<td><code>Review</code></td>
+<td>Рейс, пользователь-комментатор, дата рейса, текст, рейтинг 1-10, время публикации</td>
+</tr>
+</tbody>
+</table>
+<p>Каждое бронирование связано с одним пользователем и одним рейсом. <code>User → Reservation ← Flight</code>. Отзыв также связан с пользователем и рейсом. <code>User → Review ← Flight</code>. Во всех случаях используется связь один ко многим.</p>
+<p>Один пользователь может забронировать несколько мест, указав ФИО пассажиров. Каждая запись <code>Flight</code> описывает отдельный перелёт. Сочетание номера рейса и времени отлёта уникально.</p>
+<p>Места нумеруются от 1 до <code>seat_count</code>. Ограничение <code>unique_flight_seat</code> в PostgreSQL запрещает две брони на одно место одного рейса. При сохранении проверяется, что номер места не превышает вместимость. Уменьшить вместимость нельзя, если на исключаемые места уже есть бронирования. Время прилёта должно быть позже времени отлёта. Для регистрации пассажира требуется номер билета.</p>
+<h3 id="_9">Шаблоны и обработка запросов</h3>
+<p>В Django используется архитектура MVT. Модели описывают данные, представления обрабатывают запросы, шаблоны формируют HTML. Файл <code>urls.py</code> связывает адреса с обработчиками.</p>
+<p>Страницы табло формируются шаблонами Jinja2. В <code>config/jinja2.py</code> подключены функции для получения URL страниц и статических файлов, создания ссылок пагинации, форматирования времени и проверки роли пользователя. Значения автоматически экранируются перед выводом в HTML. Для Django Admin и виджетов форм используется движок Django Templates.</p>
+<p>Меню, подключение стилей и вывод сообщений находятся в общем шаблоне <code>base.html</code>. Оформление задано локальным CSS-файлом. На узком экране таблица прокручивается внутри своего блока. Время на табло выводится по Москве. В базе хранятся даты со сведениями о часовом поясе.</p>
+<h3 id="_10">Регистрация и права</h3>
+<p>Для регистрации используется форма по адресу <code>/accounts/signup/</code>. Пользователь вводит имя пользователя, имя, фамилию, email и пароль. Форма проверяет совпадение и сложность паролей, уникальность имени пользователя. После сохранения выполняется вход. Новая учётная запись получает права обычного пользователя.</p>
+<table>
+<thead>
+<tr>
+<th>Действие</th>
+<th>Гость</th>
+<th>Пользователь</th>
+<th>Администратор</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Просмотр и поиск рейсов, чтение отзывов</td>
+<td>Да</td>
+<td>Да</td>
+<td>Да</td>
+</tr>
+<tr>
+<td>Создание бронирования и отзыва</td>
+<td>После входа</td>
+<td>Да</td>
+<td>Да</td>
+</tr>
+<tr>
+<td>Изменение и удаление своих бронирований</td>
+<td>Нет</td>
+<td>Да</td>
+<td>Да</td>
+</tr>
+<tr>
+<td>Таблица всех пассажиров выбранного рейса</td>
+<td>После входа</td>
+<td>ФИО, место, статус</td>
+<td>Дополнительно пользователь, билет, действия регистрации</td>
+</tr>
+<tr>
+<td>Регистрация пассажира, указание билета</td>
+<td>Нет</td>
+<td>Нет</td>
+<td>В Django Admin и клиентском интерфейсе</td>
+</tr>
+<tr>
+<td>Управление рейсами</td>
+<td>Нет</td>
+<td>Нет</td>
+<td>Через Django Admin, ссылки доступны в клиентском интерфейсе</td>
+</tr>
+</tbody>
+</table>
+<p>При выводе страницы шаблон проверяет <code>is_staff</code>/<code>is_superuser</code> и показывает административные действия только администратору. Сервер повторно проверяет права при обработке запроса. Если обычный пользователь напрямую запрашивает административное действие, сервер возвращает HTTP 403.</p>
+<p>Для изменения и удаления бронирование ищется среди записей текущего пользователя. Поэтому запрос чужой брони возвращает HTTP 404.</p>
+<h3 id="_11">Интерфейсы сайта</h3>
+<p>Адреса в таблице приведены относительно <code>http://127.0.0.1:8000</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Адрес</th>
+<th>Интерфейс и поведение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/</code></td>
+<td>Табло, поиск по номеру, авиакомпании и аэропортам, фильтры типа и даты отлёта, пагинация по 8 рейсов</td>
+</tr>
+<tr>
+<td><code>/flights/&lt;id&gt;/</code></td>
+<td>Карточка рейса, свободные места, отзывы, доступные текущей роли действия</td>
+</tr>
+<tr>
+<td><code>/accounts/signup/</code></td>
+<td>Регистрация нового пользователя</td>
+</tr>
+<tr>
+<td><code>/accounts/login/</code></td>
+<td>Вход; после входа учитывается безопасный параметр <code>next</code></td>
+</tr>
+<tr>
+<td><code>/accounts/logout/</code></td>
+<td>Выход POST-запросом из навигационного меню</td>
+</tr>
+<tr>
+<td><code>/flights/&lt;id&gt;/reserve/</code></td>
+<td>Форма выбора рейса, ФИО пассажира и места</td>
+</tr>
+<tr>
+<td><code>/reservations/</code></td>
+<td>Все бронирования текущего пользователя</td>
+</tr>
+<tr>
+<td><code>/reservations/&lt;id&gt;/edit/</code></td>
+<td>Изменение собственного бронирования</td>
+</tr>
+<tr>
+<td><code>/reservations/&lt;id&gt;/delete/</code></td>
+<td>Подтверждение и удаление собственного бронирования</td>
+</tr>
+<tr>
+<td><code>/flights/&lt;id&gt;/passengers/</code></td>
+<td>Таблица всех пассажиров рейса с разграничением столбцов и действий по роли</td>
+</tr>
+<tr>
+<td><code>/reservations/&lt;id&gt;/check-in/</code></td>
+<td>Регистрация существующей брони администратором, ввод номера билета</td>
+</tr>
+<tr>
+<td><code>/flights/&lt;id&gt;/passengers/new/</code></td>
+<td>Добавление администратором нового пассажира сразу с билетом и регистрацией</td>
+</tr>
+<tr>
+<td><code>/flights/&lt;id&gt;/reviews/new/</code></td>
+<td>Добавление отзыва с текстом и оценкой от 1 до 10</td>
+</tr>
+<tr>
+<td><code>/admin/</code></td>
+<td>Управление пользователями, рейсами, бронированиями и отзывами</td>
+</tr>
+</tbody>
+</table>
+<p>Поиск не зависит от регистра, в том числе для кириллицы при UTF-8 локали PostgreSQL. Рейсы можно отфильтровать по типу и дате отлёта. На странице выводится до 8 рейсов, отсортированных по времени отлёта и идентификатору. При переходе на следующую страницу поисковая строка и фильтры сохраняются. Если дата или тип указаны неверно, форма выводит сообщение об ошибке.</p>
+<p><img alt="Табло и поиск рейсов" src="../images/flight-board.jpg" /></p>
+<h3 id="_12">Бронирование и регистрация пассажира</h3>
+<p>Бронирование выполняется через форму.</p>
+<ol>
+<li>Пользователь выбирает рейс, вводит ФИО пассажира и номер места.</li>
+<li>Сервер получает пользователя из <code>request.user</code> и связывает с ним бронирование. Номер билета и признак регистрации обычный пользователь не задаёт.</li>
+<li>Форма проверяет номер места и его доступность.</li>
+<li>После сохранения сервер перенаправляет браузер на страницу "Мои бронирования".</li>
+</ol>
+<p>Если пользователь меняет рейс, место или ФИО, номер билета и регистрация сбрасываются. После изменения данных администратор регистрирует пассажира повторно. Об этом сообщается на странице бронирований. Для удаления сначала выводится страница подтверждения, затем обрабатывается POST-запрос.</p>
+<p>При сохранении бронирования открывается транзакция. Метод <code>select_for_update()</code> блокирует запись рейса до её завершения. Данные проверяются повторно, а ограничение PostgreSQL не допускает двух бронирований одного места. Если два пользователя одновременно выбирают одно место, сохраняется одна бронь, а второй пользователь получает сообщение об ошибке.</p>
+<p>Для регистрации пассажира администратор открывает бронирование в Django Admin, указывает номер билета и отмечает "Зарегистрирован на рейс". Зарегистрировать пассажира можно и через таблицу пассажиров на сайте.</p>
+<p>Пример работы. Второму учебному пассажиру присвоен билет <code>DEMO-000002</code>. После сохранения в таблице отображаются номер билета и статус "Зарегистрирован".</p>
+<p><img alt="Пассажиры и регистрация в клиентском интерфейсе администратора" src="../images/passengers.jpg" /></p>
+<h3 id="_13">Отзывы</h3>
+<p>В форме отзыва пользователь вводит текст и целый рейтинг от 1 до 10. Автор определяется по текущему сеансу, дата рейса - по времени отлёта выбранного рейса в московском часовом поясе. Эти значения задаются сервером и не принимаются из POST-параметров.</p>
+<p>Дата рейса и дата публикации хранятся отдельно. Диапазон рейтинга проверяют форма, валидаторы модели и ограничение PostgreSQL. Перед выводом текст экранируется, поэтому введённые HTML-теги не выполняются в браузере.</p>
+<p><img alt="Карточка рейса и пример отзыва" src="../images/flight-detail.jpg" /></p>
+<h2 id="macos">Запуск на macOS</h2>
+<h3 id="_14">Запуск подготовленных проектов</h3>
+<p>Для локального запуска подготовлены виртуальное окружение и две базы данных. Кластер PostgreSQL находится в <code>.postgres</code> и использует порт <strong>55432</strong>. Он запускается отдельно от других серверов PostgreSQL.</p>
+<ol>
+<li>В терминале VS Code (<strong>Terminal → New Terminal</strong>) выполняется переход в папку работы и активация окружения.</li>
+</ol>
+<p><div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>/Users/goodkid/ITMO_ICT_WebDevelopment_2026-2027/students/k3341/Artemov_Ilya/laboratory_work_2
+<span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+</code></pre></div>
+2. Состояние PostgreSQL проверяется командой.</p>
+<div class="highlight"><pre><span></span><code>/Library/PostgreSQL/18/bin/pg_isready<span class="w"> </span>-h<span class="w"> </span><span class="m">127</span>.0.0.1<span class="w"> </span>-p<span class="w"> </span><span class="m">55432</span>
+</code></pre></div>
+<p>Если сервер остановлен, команда выводит <code>no response</code>. Для запуска кластера из папки <code>laboratory_work_2</code> используется.</p>
+<p><div class="highlight"><pre><span></span><code>/Library/PostgreSQL/18/bin/pg_ctl<span class="w"> </span>-D<span class="w"> </span><span class="s2">"</span><span class="nv">$PWD</span><span class="s2">/.postgres"</span><span class="w"> </span>-l<span class="w"> </span><span class="s2">"</span><span class="nv">$PWD</span><span class="s2">/.postgres/server.log"</span><span class="w"> </span>-o<span class="w"> </span><span class="s2">"-h 127.0.0.1 -p 55432 -k /tmp"</span><span class="w"> </span>start
+</code></pre></div>
+3. Перед первым входом задаётся пароль существующему администратору табло.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>flight_board
+python<span class="w"> </span>manage.py<span class="w"> </span>changepassword<span class="w"> </span>admin
+</code></pre></div>
+<p>Новый пароль вводится дважды. Символы при вводе не отображаются. Пароль задаётся локально и не хранится в исходном коде и отчёте.
+4. Сервер табло запускается командой.</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>manage.py<span class="w"> </span>runserver<span class="w"> </span><span class="m">127</span>.0.0.1:8000
+</code></pre></div>
+<p>После запуска доступны <a href="http://127.0.0.1:8000/">табло</a> и <a href="http://127.0.0.1:8000/admin/">Django Admin табло</a>. Имя администратора - <code>admin</code>, пароль задаётся предыдущей командой. Обычный пользователь создаётся через форму "Регистрация".
+5. Проект практических работ запускается во втором терминале.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>/Users/goodkid/ITMO_ICT_WebDevelopment_2026-2027/students/k3341/Artemov_Ilya/laboratory_work_2
+<span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+<span class="nb">cd</span><span class="w"> </span>practice_django
+python<span class="w"> </span>manage.py<span class="w"> </span>changepassword<span class="w"> </span>admin
+python<span class="w"> </span>manage.py<span class="w"> </span>runserver<span class="w"> </span><span class="m">127</span>.0.0.1:8001
+</code></pre></div>
+<p>После запуска доступны <a href="http://127.0.0.1:8001/">список владельцев</a>, <a href="http://127.0.0.1:8001/cars/">автомобили</a> и <a href="http://127.0.0.1:8001/admin/">Django Admin практик</a>. В этом проекте своя учётная запись <code>admin</code> и отдельно заданный пароль.
+6. Сайт MkDocs запускается в третьем терминале из корня репозитория.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>/Users/goodkid/ITMO_ICT_WebDevelopment_2026-2027
+.venv/bin/mkdocs<span class="w"> </span>serve<span class="w"> </span>-a<span class="w"> </span><span class="m">127</span>.0.0.1:8002
+</code></pre></div>
+<p>Отчёт доступен по адресу <a href="http://127.0.0.1:8002/lr2/report/">http://127.0.0.1:8002/lr2/report/</a>.
+7. Каждый веб-сервер останавливается сочетанием <strong>Control+C</strong> в его терминале. После остановки Django-проектов кластер PostgreSQL останавливается командой.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>/Users/goodkid/ITMO_ICT_WebDevelopment_2026-2027/students/k3341/Artemov_Ilya/laboratory_work_2
+/Library/PostgreSQL/18/bin/pg_ctl<span class="w"> </span>-D<span class="w"> </span><span class="s2">"</span><span class="nv">$PWD</span><span class="s2">/.postgres"</span><span class="w"> </span>stop<span class="w"> </span>-m<span class="w"> </span>fast
+</code></pre></div>
+<h3 id="_15">Повторное развёртывание из исходного кода</h3>
+<p>При переносе проекта на другой компьютер сначала создаются окружение и базы данных. Для подготовленной локальной копии повторять эти действия не требуется.</p>
+<ol>
+<li>В папке <code>laboratory_work_2</code> создаётся окружение Python 3.13 и устанавливаются зависимости.</li>
+</ol>
+<p><div class="highlight"><pre><span></span><code>python3.13<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
+<span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</code></pre></div>
+2. В PostgreSQL создаются роль и две базы. Команды выполняются под администратором PostgreSQL через SQL Shell или pgAdmin.</p>
+<div class="highlight"><pre><span></span><code><span class="k">CREATE</span><span class="w"> </span><span class="k">ROLE</span><span class="w"> </span><span class="n">web_lab2</span><span class="w"> </span><span class="n">LOGIN</span><span class="w"> </span><span class="k">CREATEDB</span><span class="p">;</span>
+</code></pre></div>
+<p>В <code>psql</code> пароль роли задаётся командой <code>\password web_lab2</code>. Затем создаются базы.</p>
+<div class="highlight"><pre><span></span><code><span class="k">CREATE</span><span class="w"> </span><span class="k">DATABASE</span><span class="w"> </span><span class="n">web_lab2_practice</span><span class="w"> </span><span class="k">OWNER</span><span class="w"> </span><span class="n">web_lab2</span><span class="w"> </span><span class="k">ENCODING</span><span class="w"> </span><span class="s1">'UTF8'</span><span class="p">;</span>
+<span class="k">CREATE</span><span class="w"> </span><span class="k">DATABASE</span><span class="w"> </span><span class="n">web_lab2_flights</span><span class="w"> </span><span class="k">OWNER</span><span class="w"> </span><span class="n">web_lab2</span><span class="w"> </span><span class="k">ENCODING</span><span class="w"> </span><span class="s1">'UTF8'</span><span class="p">;</span>
+</code></pre></div>
+<p>Для поиска русских названий без учёта регистра используется UTF-8 локаль с поддержкой кириллицы, например <code>en_US.UTF-8</code>. Локаль <code>C</code> для этого не подходит. Право <code>CREATEDB</code> позволяет команде <code>manage.py test</code> создать отдельную тестовую базу.
+3. Файлы <code>practice_django/.env.example</code> и <code>flight_board/.env.example</code> копируются в <code>.env</code> внутри соответствующих проектов. В каждом задаются <code>DJANGO_SECRET_KEY</code>, пароль роли <code>DB_PASSWORD</code> и порт <code>DB_PORT</code>. Для проектов указаны разные имена баз. Файлы <code>.env</code> исключены из Git.
+4. В каждом проекте применяются миграции, добавляются учебные данные и создаётся суперпользователь.</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>manage.py<span class="w"> </span>migrate
+python<span class="w"> </span>manage.py<span class="w"> </span>seed_demo
+python<span class="w"> </span>manage.py<span class="w"> </span>createsuperuser
+</code></pre></div>
+<p>Команда <code>seed_demo</code> добавляет учебные данные, сохраняя существующие записи. В практиках создаются 6 владельцев, 7 автомобилей, 6 записей владения и 2 удостоверения. В табло создаются 12 рейсов, 2 пассажира и пример отзыва. Пароли новым учебным пользователям не задаются. Для входа используется отдельная учётная запись или пароль задаётся командой <code>changepassword</code>.
+5. Проекты запускаются на разных портах командами из предыдущего раздела. Файлы миграций включены в работу, поэтому повторно создавать их не требуется.</p>
+<h3 id="_16">Пример работы</h3>
+<ol>
+<li>В проекте практик открывается список пользователей. Карточка владельца показывает его данные и историю трёх автомобилей. В Django Admin доступны четыре модели и новые поля пользователя.</li>
+<li>Через форму "Создать пользователя" добавляется владелец с паспортом, адресом и национальностью. После входа через раздел "Автомобили" создаётся автомобиль, изменяются его данные и открывается подтверждение удаления.</li>
+<li>В табло пользователь регистрируется, ищет рейсы по авиакомпании, применяет фильтры и переходит между страницами общего списка.</li>
+<li>В карточке рейса пользователь бронирует свободное место и пишет отзыв. На странице "Мои бронирования" он изменяет свою бронь. При запросе чужой брони сервер возвращает HTTP 404.</li>
+<li>Администратор открывает <strong>Табло авиаперелётов → Бронирования</strong> в Django Admin, указывает номер билета и отмечает регистрацию пассажира. После сохранения билет и статус отображаются в таблице пассажиров. Второй способ регистрации доступен через клиентский интерфейс сайта.</li>
+<li>Отчёт открывается на локальном сайте MkDocs.</li>
+</ol>
+<h2 id="_17">Проверка результата</h2>
+<p>Проверка выполнена с использованием PostgreSQL.</p>
+<p>В папке каждого проекта выполняются команды.</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>manage.py<span class="w"> </span>check
+python<span class="w"> </span>manage.py<span class="w"> </span>makemigrations<span class="w"> </span>--check<span class="w"> </span>--dry-run
+python<span class="w"> </span>manage.py<span class="w"> </span><span class="nb">test</span><span class="w"> </span>--noinput
+</code></pre></div>
+<p>Выполнены 20 функциональных тестов. Из них 6 для практик и 14 для табло. Все тесты завершились с результатом <code>OK</code>. Проверены.</p>
+<ul>
+<li>создание расширенного пользователя через FBV и Django Admin, сохранение полей и хеширование пароля;</li>
+<li>CBV создания, просмотра, изменения и удаления автомобилей;</li>
+<li>связи M2M, непересечение периодов и минимальное количество учебных данных;</li>
+<li>права на личные данные владельца и на собственные бронирования;</li>
+<li>вход, регистрация, отсутствие повышения прав через POST-параметры и выход только через POST;</li>
+<li>диапазон мест, занятое место, вместимость, уникальность билетов и регистрация только с билетом;</li>
+<li>регистрация пассажира через Django Admin и клиентский интерфейс;</li>
+<li>сохранение автора и даты отзыва, границы рейтинга, экранирование HTML;</li>
+<li>поиск кириллицей, фильтры, пагинация, некорректные параметры и CSRF;</li>
+<li>одновременное бронирование одного места двумя независимыми клиентами. Одна запись и корректная ошибка второй формы.</li>
+</ul>
+<p>В браузере проверены страницы обоих проектов, поиск кириллицей, вход администратора, сохранение билета и статуса пассажира, история владения и оформление страниц. Сайт документации собирается из корня репозитория командой <code>.venv/bin/mkdocs build --strict</code>.</p>
+<h2 id="_18">Вывод</h2>
+<p>В ходе работы изучена разработка веб-сервисов средствами Django. Реализованы приложение об автовладельцах и табло авиаперелётов с базами PostgreSQL. В практических заданиях описаны модели, выполнены миграции, созданы представления на основе функций и классов, расширена модель пользователя. В табло реализованы бронирование мест, регистрация пассажиров, отзывы, поиск, фильтрация, пагинация и разграничение прав. Отчёт оформлен средствами MkDocs.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
